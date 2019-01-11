@@ -1,0 +1,12 @@
+C:\Users\lodc-i9-Antoine\source\repos\XamFormsTest\XamFormsTest\XamFormsTest\bin\Debug\netstandard2.0\XamFormsTest.deps.json
+C:\Users\lodc-i9-Antoine\source\repos\XamFormsTest\XamFormsTest\XamFormsTest\bin\Debug\netstandard2.0\XamFormsTest.dll
+C:\Users\lodc-i9-Antoine\source\repos\XamFormsTest\XamFormsTest\XamFormsTest\bin\Debug\netstandard2.0\XamFormsTest.pdb
+C:\Users\lodc-i9-Antoine\source\repos\XamFormsTest\XamFormsTest\XamFormsTest\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\lodc-i9-Antoine\source\repos\XamFormsTest\XamFormsTest\XamFormsTest\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\lodc-i9-Antoine\source\repos\XamFormsTest\XamFormsTest\XamFormsTest\obj\Debug\netstandard2.0\XamFormsTest.csproj.CoreCompileInputs.cache
+C:\Users\lodc-i9-Antoine\source\repos\XamFormsTest\XamFormsTest\XamFormsTest\obj\Debug\netstandard2.0\XamFormsTest.AssemblyInfoInputs.cache
+C:\Users\lodc-i9-Antoine\source\repos\XamFormsTest\XamFormsTest\XamFormsTest\obj\Debug\netstandard2.0\XamFormsTest.AssemblyInfo.cs
+C:\Users\lodc-i9-Antoine\source\repos\XamFormsTest\XamFormsTest\XamFormsTest\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\lodc-i9-Antoine\source\repos\XamFormsTest\XamFormsTest\XamFormsTest\obj\Debug\netstandard2.0\XamFormsTest.dll
+C:\Users\lodc-i9-Antoine\source\repos\XamFormsTest\XamFormsTest\XamFormsTest\obj\Debug\netstandard2.0\XamFormsTest.pdb
+C:\Users\lodc-i9-Antoine\source\repos\XamFormsTest\XamFormsTest\XamFormsTest\obj\Debug\netstandard2.0\XamFormsTest.csprojAssemblyReference.cache

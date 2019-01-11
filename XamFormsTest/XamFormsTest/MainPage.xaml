@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamFormsTest"
+             x:Class="XamFormsTest.MainPage"
+            xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms">
+
+    <TabbedPage.Resources>
+        <ResourceDictionary>
+            <OnPlatform x:TypeArguments="x:String" x:Key="NormalFont">
+                <On Platform="Android" Value="neuton-bold.ttf#Neuton" />
+            </OnPlatform>
+            <OnPlatform x:TypeArguments="x:String" x:Key="BoldFont">
+                <On Platform="Android" Value="neuton-extrabold.ttf#Neuton"/>
+            </OnPlatform>
+        </ResourceDictionary>
+    </TabbedPage.Resources>
+    <ContentPage Title="Ruleset">
+
+        <StackLayout HorizontalOptions="FillAndExpand">
+            <Button Text="Clear" Pressed="OnClearPressed" VerticalOptions="Start" BorderRadius = "0" BorderWidth = "0" Margin="5" BackgroundColor="#FF202020" FontFamily="{StaticResource NormalFont}" TextColor="#A9FFFFFF" FontSize="Medium"/>
+            <Label x:Name="NeutralsText" Text="Neutrals" VerticalOptions="Start" FontFamily="{StaticResource BoldFont}" FontSize="Large" TextColor="#FFfc8b00"/>
+            <Label x:Name="SelectStagesText" Text="Select stages to display in the settings tab" VerticalOptions="Start" FontFamily="{StaticResource NormalFont}"/>
+            <Grid x:Name="StageNeutralsGrid" VerticalOptions="FillAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+            </Grid>
+            <Label x:Name="CountersText" Text="Counters"  VerticalOptions="Start" FontFamily="{StaticResource BoldFont}" FontSize="Large" TextColor="#FF015ce0"/>
+            <Grid x:Name="StageCountersGrid" VerticalOptions="FillAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+            </Grid>
+        </StackLayout>
+
+    </ContentPage>
+    <ContentPage Title="Settings">
+
+
+        <Grid x:Name="StageSettingsGrid" VerticalOptions="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Label Text="Neutral" FontFamily="{StaticResource BoldFont}" Grid.Row="0" Grid.Column="1" TextColor="#FFfc8b00" />
+            <Label Text="Counter" FontFamily="{StaticResource BoldFont}" Grid.Row="0" Grid.Column="2" TextColor="#FF015ce0"/>
+        </Grid>
+    </ContentPage>
+</TabbedPage>
